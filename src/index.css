@@ -1,0 +1,36 @@
+/* Global Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #040714;
+    color: #f9f9f9;
+    font-family: Avenir-Roman, sans-serif;
+}
+
+a{
+    color: #f9f9f9;
+    text-decoration: none;
+}
+/* Above 786px screens */
+@media only screen and (min-width:786px){
+    body{
+        font-size: 16px;
+    }
+}
+/* Medium Devices */
+@media only screen and (min-width:480px) and (min-width:786px){
+    body{
+        font-size: 15px;
+    } 
+}
+/* Small Devices */
+@media only screen and (min-width:479px){
+    body{
+        font-size: 14px;
+    }
+}

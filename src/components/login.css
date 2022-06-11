@@ -1,0 +1,32 @@
+@media only screen and (min-width:480px) and (min-width:786px){
+    body{
+        font-size: 15px;
+    }
+    
+    .img, .btn, .para{
+        width: 50% !important;
+    }
+    
+}
+/* Small Devices */
+@media screen and (max-width:639px){
+    body{
+        font-size: 14px;
+    }
+    section{
+        margin-top: 30px;
+    }
+    .img1{
+        width: 100% !important;
+    }
+    .img , .btn  , .img-btm{
+        width: 80%;
+    }
+    .para{
+        font-size: 14px;
+        width: 100%;
+    }
+    .img-btm{
+        height: 20px;
+    }
+}
