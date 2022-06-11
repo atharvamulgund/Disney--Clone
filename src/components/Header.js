@@ -6,7 +6,7 @@ const Header = (props) => {
    
     //  Promise and catch
   return (
-    <nav className='fixed h-1/6 w-full z-10 gradient top-0 left-0 right-0 flex justify-between items-center px-9 tracking-widest'>
+    <nav className='fixed h-1/6 w-full gradient top-0 left-0 right-0 flex justify-between items-center px-9 tracking-widest'>
         <img src="/../images/logo.svg" alt="logo"  className=' h-2/4 '/>
         <div className="flex nav-menu items-center flex-nowrap h-full justify-end relative gap-5">
                 {/* <Route path='/home' element={<Login></Login>}>Home</Route> */}

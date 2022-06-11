@@ -29,7 +29,7 @@
 }
 @media screen and (max-width:786px){
     .nav-menu{
-        display: none;
+        display: none !important;
     }
 }
 @media screen and (max-width:479px) {
