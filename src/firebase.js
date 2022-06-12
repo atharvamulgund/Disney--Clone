@@ -55,4 +55,5 @@ export {
   db,
   signInWithGoogle,
   logout,
+  googleProvider
 };
